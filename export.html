@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Cost Manager | Report</title>
+  <script src="/assets/js/model.js"></script>
+  <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+</head>
+<div class="topnav">
+  <a href="index.html">New Expense</a>
+  <a href="overview.html">Overview</a>
+  <a class="active" href="export.html">Report</a>
+  <a href="about.html">About</a>
+</div>
+<form id="expense-entry-form" class="form-horizontal">
+  <h3>Report Page</h3>
+  <p>Here you can save your report with all your expenses.</p>
+  <p>After downloading the file, rename it to whatever you like and add a ".csv" extension. </p>
+  <p>For example, name the file "expenses.csv" and open it with your favorite app.</p>
+  </br>
+  <input type="button" value="Save Report" id="save-backup" class="btn btn-large btn-info btn-block" download="expenses.csv">
+</form>
+<footer id="main-footer">
+  <p>Copyright &copy; Adi dereviani and Dvir Zicherman</p>
+</footer>
+</body>
+</html>
